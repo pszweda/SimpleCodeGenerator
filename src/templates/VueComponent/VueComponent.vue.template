@@ -1,0 +1,7 @@
+<template>
+    <div class="{componentName}">
+        VueComponent
+    </div>
+</template>
+
+<script src="./{componentName}.ts" type="ts"></script>

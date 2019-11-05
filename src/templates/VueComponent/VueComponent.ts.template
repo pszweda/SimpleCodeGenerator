@@ -1,0 +1,5 @@
+import Vue from "vue";
+
+export defailt class {componentName} extends Vue {
+    
+}

@@ -1,0 +1,7 @@
+<template>
+    <div class="{componentName}">
+        SebixVueComponent
+    </div>
+</template>
+
+<script src="./Component.ts" type="ts"></script>

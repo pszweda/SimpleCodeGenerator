@@ -2,16 +2,25 @@
   "name": "abeonfilesgenerator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build:live",
+    "build": "tsc -p .",
+    "build:live": "'ts-node' src/index.ts"
   },
   "author": "Piotr Szweda",
   "license": "ISC",
   "bin": {
-    "file-generator": "./index.js"
+    "file-generator": "./lib/index.js"
   },
   "dependencies": {
-    "commander": "^4.0.0"
+    "commander": "^4.0.0",
+    "inquirer": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.5",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2"
   }
 }
