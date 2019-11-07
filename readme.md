@@ -1,4 +1,4 @@
-### Simple Code Generator
+# Simple Code Generator
 
 ## Instalation
 
