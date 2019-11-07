@@ -1,12 +1,12 @@
-###Simple Code Generator
+### Simple Code Generator
 
-##Instalation
+## Instalation
 
 1. Download packace
 2. Run in console npm link
 3. To use type: `file-generator`
 
-##Usage
+## Usage
 
 1. Go to destiny location
 2. Type: `file-generator`
