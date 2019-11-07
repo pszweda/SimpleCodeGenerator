@@ -22,13 +22,13 @@ inquirer
   .then((answers: {template: string, componentName: string}) => {    
     const selectedTemplate: any = templates.templates.find((template) => template.name === answers.template);
 
-    selectedTemplate.files.forEach((template: {name: string, template: string}) => {
-        const dir = './' + answers.componentName;
+    selectedTemplate.files.forEach((template: {name: string, location: string, template: string}) => {
+        const dir = template.location.replace(new RegExp('{componentName}', 'g'), answers.componentName);
         let fileData = template.template.replace(new RegExp('{componentName}', 'g'), answers.componentName); 
 
         if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir);
-            console.log('Directory created.');
+            console.log('Directory created: ' + dir);
         }
 
         let fileName = template.name.replace(new RegExp('{componentName}', 'g'), answers.componentName);
