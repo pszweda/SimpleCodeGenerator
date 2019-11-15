@@ -1,7 +1,8 @@
+<script src="./{componentName}.ts" lang="ts"></script>
+<style src="./{componentName}.scss" lang="scss" scoped></style>
+
 <template>
     <div class="{componentName}">
         VueComponent
     </div>
 </template>
-
-<script src="./{componentName}.ts" type="ts"></script>

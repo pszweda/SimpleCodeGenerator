@@ -1,7 +1,8 @@
+<script src="./Component.ts" lang="ts"></script>
+<style src="./Component.scss" lang="scss" scoped></style>
+
 <template>
     <div class="{componentName}">
         SebixVueComponent
     </div>
 </template>
-
-<script src="./Component.ts" type="ts"></script>

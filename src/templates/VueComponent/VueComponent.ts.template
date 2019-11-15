@@ -1,5 +1,7 @@
 import Vue from "vue";
+import { Component } from "vue-property-decorator";
 
-export defailt class {componentName} extends Vue {
+@Component
+export default class {componentName} extends Vue {
     
 }
