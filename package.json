@@ -14,13 +14,13 @@
     "file-generator": "./lib/index.js"
   },
   "dependencies": {
-    "commander": "^4.0.0",
-    "inquirer": "^7.0.0"
+    "commander": "^4.1.1",
+    "inquirer": "^7.3.3"
   },
   "devDependencies": {
-    "@types/node": "^12.12.5",
+    "@types/node": "^12.20.27",
     "nodemon": "^1.19.4",
-    "ts-node": "^8.4.1",
-    "typescript": "^3.7.2"
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.10"
   }
 }
